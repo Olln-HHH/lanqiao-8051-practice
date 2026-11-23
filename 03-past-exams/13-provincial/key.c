@@ -1,0 +1,18 @@
+#include "15f2k60s2.h"
+unsigned char key_read()
+{
+	unsigned char temp=0;
+	P44=1;
+	P42=1;
+	P35=0;
+	P34=1;
+	if(P33==0){temp=12;}
+	if(P32==0){temp=13;}
+	P44=1;
+	P42=1;
+	P35=1;
+	P34=0;
+	if(P33==0){temp=16;}
+	if(P32==0){temp=17;}
+	return temp;
+}

@@ -1,0 +1,19 @@
+# Keil generated output and personal IDE state
+**/build/
+**/Objects/
+**/Listings/
+*.obj
+*.lst
+*.m51
+*.lnp
+*.__i
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.bak
+*.plg
+*.sdy
+__pycache__/
+.DS_Store
+Thumbs.db
