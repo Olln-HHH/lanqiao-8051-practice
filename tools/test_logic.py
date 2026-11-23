@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def function(path, name):
     text = (ROOT / path).read_text(encoding="utf-8")
-    match = re.search(r"\b(?:void|bit)\s+" + name + r"\([^;{}]*\)\s*(?:interrupt\s+\d+\s*)?\{", text)
+    match = re.search(r"\b(?:void|bit)\s+" + name + r"\([^;{}]*\)\s*(?://[^\n]*\n\s*)?(?:interrupt\s+\d+\s*)?\{", text)
     if not match:
         raise ValueError(f"Function not found: {path}: {name}")
     depth, end = 1, text.index("{", match.start()) + 1
@@ -20,10 +20,10 @@ def main():
     parser.add_argument("--cc", default="gcc", help="GCC-compatible host C compiler")
     args = parser.parse_args()
     extracted = "\n".join([
-        function("03-past-exams/16-provincial-v3/main.c", "get_V"),
+        function("03-past-exams/16-provincial/main.c", "Get_Voltage"),
         function("01-modules/10-pwm/main.c", "servicetimer0"),
         function("02-exercises/02-key-long-short/main.c", "Server_Timer0"),
-        function("03-past-exams/16-provincial-v3/onewire.c", "OneWire_ReadRaw"),
+        function("03-past-exams/16-provincial/onewire.c", "OneWire_ReadRaw"),
     ])
     # int is mapped to a 16-bit short for these isolated C51 functions.
     # Actual firmware compilation still uses Keil C51; SFRs and bit are mocked here.
@@ -35,9 +35,9 @@ def main():
 #define bit unsigned char
 _Static_assert(sizeof(unsigned int)==2,"16-bit arithmetic required");
 _Static_assert(sizeof(unsigned long)==4,"32-bit long required");
-unsigned char sample,V_val,count,pwm_duty,L1,press,TH0,TL0;
-unsigned int V_int;
-unsigned char AD_read(unsigned char channel){(void)channel;return sample;}
+unsigned char sample,ad_val,count,pwm_duty,L1,press,TH0,TL0;
+unsigned int voltage_int;
+unsigned char Ad_Read(unsigned char channel){(void)channel;return sample;}
 unsigned char scratch[9]={0x50,0x05,0x4b,0x46,0x7f,0xff,0x0c,0x10,0x1c};
 signed char index_byte=-1;
 unsigned char busy=0,missing=0,starts=0;
@@ -55,10 +55,10 @@ unsigned char Read_DS18B20(void){
 int main(void){
     int i,duty,on;
     short raw=1234;
-    sample=0;get_V(1);assert(V_int==0);
-    sample=128;get_V(1);assert(V_int==251);
-    sample=255;get_V(1);assert(V_int==500);
-    for(i=0;i<256;i++){sample=(unsigned char)i;get_V(1);assert(V_int==(i*500L+127)/255);}
+    sample=0;Get_Voltage(1);assert(voltage_int==0);
+    sample=128;Get_Voltage(1);assert(voltage_int==251);
+    sample=255;Get_Voltage(1);assert(voltage_int==500);
+    for(i=0;i<256;i++){sample=(unsigned char)i;Get_Voltage(1);assert(voltage_int==(i*500L+127)/255);}
     puts("PASS ADC: all 256 input codes, including full scale");
     for(duty=0;duty<=100;duty++){
         pwm_duty=(unsigned char)duty;count=0;on=0;

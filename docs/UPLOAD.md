@@ -23,4 +23,4 @@ git push -u origin main
 
 仓库描述建议：蓝桥杯51单片机模块练习、应用练习与历年真题实践，附Keil工程、修复记录和编译固件。
 
-Topic建议：lanqiao、8051、stc15、embedded-c、keil。获得真实上板反馈后，再更新对应例程的验证状态；B站视频发布后可把真实链接补到对应README。
+Topic建议：lanqiao、8051、stc15、embedded-c、keil。B站视频发布后可把真实链接补到对应README。

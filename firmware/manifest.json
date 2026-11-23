@@ -4,251 +4,271 @@
     "file": "firmware/01-modules/01-led/firmware.hex",
     "clock_mhz": 12,
     "sha256": "1cf1d30db238574a50c0d09b0bd5000d078ed976130612536175f1a4a50ab8b6",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/02-buzzer",
     "file": "firmware/01-modules/02-buzzer/firmware.hex",
     "clock_mhz": 12,
     "sha256": "4dcfefc377733556a97faeac3fae1f0bfd237433af4c8e81b93ab3d4d3a276bb",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/03-segment-static",
     "file": "firmware/01-modules/03-segment-static/firmware.hex",
     "clock_mhz": 12,
     "sha256": "0f0f67ed3101976ceb531953129cd72fef960d87f35d49fb5a2fde0ecbf6a972",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/04-segment-dynamic",
     "file": "firmware/01-modules/04-segment-dynamic/firmware.hex",
     "clock_mhz": 12,
     "sha256": "50507bd99ab0c11644af11bfb8ec7a4f69eb0254e84bf5d65571670e382182b7",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/05-key-independent",
     "file": "firmware/01-modules/05-key-independent/firmware.hex",
     "clock_mhz": 12,
     "sha256": "f30af42a653053689668decf4c81f9503cb7ea78e5b75022709d66d8c36fd6a2",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/06-key-matrix",
     "file": "firmware/01-modules/06-key-matrix/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "631ee75441784df03551f0f4e3657fb8c48ce72b45463cf64d528cc051b1e972",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/07-interrupt",
     "file": "firmware/01-modules/07-interrupt/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "da2b7eaff899b2b4794606ba32092a3a32197fc4db73f80a15a579cba4d95b84",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/08-timer-blink",
     "file": "firmware/01-modules/08-timer-blink/firmware.hex",
     "clock_mhz": 12,
     "sha256": "d1bca87831619f7a23069fcebd5de6828f1a8967d2940e2d0f006e73dd40a12d",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/09-stopwatch",
     "file": "firmware/01-modules/09-stopwatch/firmware.hex",
     "clock_mhz": 12,
     "sha256": "da28a107f7728464e4cc176fe2c22fb577cfc552b40f0da4c7dbeba0276da05d",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/10-pwm",
     "file": "firmware/01-modules/10-pwm/firmware.hex",
     "clock_mhz": 12,
     "sha256": "842a178f147b0be5339a3ecb0b970a918035363cb1dcde487a44f9d162d29cb3",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/11-uart-basic",
     "file": "firmware/01-modules/11-uart-basic/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "ff9d2343941c96887518c8c1e1b227caed8349e1b3b53043697714d8a8bb1296",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/12-uart-command",
     "file": "firmware/01-modules/12-uart-command/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "68f1cdcec4f96ee6b1096cdb38fc8447577256de839cf3c8766995ef50736920",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/13-io-expand",
     "file": "firmware/01-modules/13-io-expand/firmware.hex",
     "clock_mhz": 12,
     "sha256": "8b4ba760b21923c8f9d925d830c9e1b73eba23623a08e31516ee5982b14018b7",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/14-lighting-system",
     "file": "firmware/01-modules/14-lighting-system/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "d479057d3531fd09615bcf6a70d64f320a5ffb6fef3e138c6c9dc32c7cfb39e2",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/15-eeprom",
     "file": "firmware/01-modules/15-eeprom/firmware.hex",
     "clock_mhz": 12,
     "sha256": "05570565004096084f111f70f9b0a7c843df1c55bb7dd77f4e7aa9d74371a3bd",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/16-rtc",
     "file": "firmware/01-modules/16-rtc/firmware.hex",
     "clock_mhz": 12,
     "sha256": "f489d33d140292696ebec4787b769d33097fd8e85f82e67dfb1c4c777ce6f972",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/17-temperature",
     "file": "firmware/01-modules/17-temperature/firmware.hex",
     "clock_mhz": 12,
     "sha256": "671ceaf79435e1766c6affeef3f2d730cc23584b0cc659514b49f7ffe232b723",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/18-frequency-counter",
     "file": "firmware/01-modules/18-frequency-counter/firmware.hex",
     "clock_mhz": 11.0592,
     "sha256": "4611fe74d6edebd46c13a604bdba81e8ba8a803e73f5cd5fe4c183f88bf1f0b7",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/19-adc-dac",
     "file": "firmware/01-modules/19-adc-dac/firmware.hex",
     "clock_mhz": 12,
     "sha256": "c8c46e66f96f25c1e0fadaed7c5c2ed779a2cd66de0b776b48e4cd1661d55651",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/20-ultrasonic",
     "file": "firmware/01-modules/20-ultrasonic/firmware.hex",
     "clock_mhz": 12,
     "sha256": "8296fb2fe1d42da3a2373b62e8719e6f29a4e7bacf79ca59f71c9d1a95b94034",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "01-modules/21-frequency-timers",
     "file": "firmware/01-modules/21-frequency-timers/firmware.hex",
     "clock_mhz": 12,
     "sha256": "8364cadb38a481f41fa43d4f178f19698760a5f8870a76d9f158063534b37e8a",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/01-led-counter",
     "file": "firmware/02-exercises/01-led-counter/firmware.hex",
     "clock_mhz": 12,
     "sha256": "8009f192ebc5e51e55b76dda252c741b6be5d2a64e4b7a8027e366401e7a64a6",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/02-key-long-short",
     "file": "firmware/02-exercises/02-key-long-short/firmware.hex",
     "clock_mhz": 12,
     "sha256": "33fabf7d6184cfc5a88e4f5fc44a849a514802e9e2786648971aff75bb2b1253",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/03-eeprom-key-counter",
     "file": "firmware/02-exercises/03-eeprom-key-counter/firmware.hex",
     "clock_mhz": 12,
     "sha256": "6babafd155797793fb4946af2c83584ec7aa3555e1b845ad3564a361eb4c10d0",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/04-adc-voltage",
     "file": "firmware/02-exercises/04-adc-voltage/firmware.hex",
     "clock_mhz": 12,
     "sha256": "d10ab6d86d656e2b5e084ec709b6a0cdd4719751adc2c782220f8967837166ba",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/05-dac-output",
     "file": "firmware/02-exercises/05-dac-output/firmware.hex",
     "clock_mhz": 12,
     "sha256": "8c6c5c28d954866c30c6b59f0bd8bb11a5d875e2418afbe7ef72ff35e31652da",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/06-smart-lighting",
     "file": "firmware/02-exercises/06-smart-lighting/firmware.hex",
     "clock_mhz": 12,
     "sha256": "50aca241124ca98ca0bcaebc1e882bce9df1f0080619587c9b3c02e7926d7c15",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "02-exercises/07-temperature-display",
     "file": "firmware/02-exercises/07-temperature-display/firmware.hex",
     "clock_mhz": 12,
     "sha256": "c324245349779ee42c7f97ea7622f2fd9a238589f845cf2f895be4d096f07f7f",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "03-past-exams/12-provincial",
     "file": "firmware/03-past-exams/12-provincial/firmware.hex",
     "clock_mhz": 12,
     "sha256": "e8aec53856ed50932337e294de035ed0b8f6844c099320a973dd1016833b773b",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "03-past-exams/13-provincial",
     "file": "firmware/03-past-exams/13-provincial/firmware.hex",
     "clock_mhz": 12,
     "sha256": "c4baf25e0207ea0cb5192a70f739adfb98b6fd27223cd2286691c71af1cf2e88",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
-    "project": "03-past-exams/15-provincial-v1",
-    "file": "firmware/03-past-exams/15-provincial-v1/firmware.hex",
-    "clock_mhz": 11.0592,
-    "sha256": "9572a6f973dd11baec7b41c07defe5e7e1a848d81fa428f932ced01702db3de5",
-    "board_tested": false
-  },
-  {
-    "project": "03-past-exams/15-provincial-modular",
-    "file": "firmware/03-past-exams/15-provincial-modular/firmware.hex",
+    "project": "03-past-exams/15-provincial",
+    "file": "firmware/03-past-exams/15-provincial/firmware.hex",
     "clock_mhz": 12,
     "sha256": "d90d5dc0841bfdab58ee3327a9cf5465740c0098e60632f2b820d351d4de0a4b",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
-    "project": "03-past-exams/16-provincial-v2",
-    "file": "firmware/03-past-exams/16-provincial-v2/firmware.hex",
+    "project": "03-past-exams/16-provincial",
+    "file": "firmware/03-past-exams/16-provincial/firmware.hex",
     "clock_mhz": 12,
     "sha256": "220fb2433d4eebbd5ec26d65cb7e10bcd80eff83c1991949d515e757eb62d2a4",
-    "board_tested": false
-  },
-  {
-    "project": "03-past-exams/16-provincial-v3",
-    "file": "firmware/03-past-exams/16-provincial-v3/firmware.hex",
-    "clock_mhz": 12,
-    "sha256": "370bd67fae1b0c9b09fdb7e16533f6980afb5d7f80d2e78f56214c4ed4355788",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "03-past-exams/17-mock-1",
     "file": "firmware/03-past-exams/17-mock-1/firmware.hex",
     "clock_mhz": 12,
     "sha256": "cf69a5ac43c4609fa1fc4d810c05ad9491c81024f388cb7059b257a734649d37",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "project": "03-past-exams/national-practice-1",
     "file": "firmware/03-past-exams/national-practice-1/firmware.hex",
     "clock_mhz": 12,
     "sha256": "f7035faba4e08407dcd2c98f0d2e60478288791ff3e45aa4fda26efa1ccd866b",
-    "board_tested": false
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   }
 ]

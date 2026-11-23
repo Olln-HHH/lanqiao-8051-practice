@@ -3,324 +3,374 @@
     "path": "01-modules/01-led",
     "title": "01-LED跑马灯",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 1,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/02-buzzer",
     "title": "02-蜂鸣器",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/03-segment-static",
     "title": "03-数码管静态显示",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/04-segment-dynamic",
     "title": "04-数码管动态显示",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/05-key-independent",
     "title": "05-独立按键的基本操作与拓展应用",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/06-key-matrix",
     "title": "06-矩阵键盘的扫描原理与基本应用",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/07-interrupt",
     "title": "07-外部中断的基本操作",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/08-timer-blink",
     "title": "08-定时器实现秒闪功能",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/09-stopwatch",
     "title": "09-定时器的进阶综合案例",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/10-pwm",
     "title": "10-利用PWM控制灯光亮度",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/11-uart-basic",
     "title": "11-串口通信基本操作",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/12-uart-command",
     "title": "12-串口通信进阶应用",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/13-io-expand",
     "title": "13-IO拓展",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": true
+    "memory_mode": true,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/14-lighting-system",
     "title": "14-基础技能综合实训",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/15-eeprom",
     "title": "AT24C02",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 4,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/16-rtc",
     "title": "ds1302",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 3,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/17-temperature",
     "title": "ds18b20",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 2,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/18-frequency-counter",
     "title": "NE555",
     "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/19-adc-dac",
     "title": "PCF8591",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 4,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/20-ultrasonic",
     "title": "超声波1",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "01-modules/21-frequency-timers",
     "title": "频率测量",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": true
+    "memory_mode": true,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/01-led-counter",
     "title": "01】灯光闪烁与数码管计数",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/02-key-long-short",
     "title": "02】长按与短按控制数码管显示",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/03-eeprom-key-counter",
     "title": "04】24C02存储按键触发次数",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 4,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/04-adc-voltage",
     "title": "05】采样光敏电阻与可调电阻的电压",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 3,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/05-dac-output",
     "title": "06】基于PCF8591的DAC模拟电压输出",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 2,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/06-smart-lighting",
     "title": "特训案例1】基于PCF8591的智能照明控制器",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 3,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "02-exercises/07-temperature-display",
     "title": "特训案例2】DS18B20温度传感器数据采样与显示",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 1,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "03-past-exams/12-provincial",
     "title": "第12届省赛练习",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 2,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "03-past-exams/13-provincial",
     "title": "第13届省赛练习",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
-    "path": "03-past-exams/15-provincial-v1",
-    "title": "第15届省赛练习（版本一）",
-    "clock_mhz": 11.0592,
-    "status": "练习实现，待开发板实测验收",
-    "errors": 0,
-    "warnings": 5,
-    "memory_mode": false
-  },
-  {
-    "path": "03-past-exams/15-provincial-modular",
-    "title": "第15届练习（模块化版本）",
+    "path": "03-past-exams/15-provincial",
+    "title": "第15届省赛练习",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 2,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
-    "path": "03-past-exams/16-provincial-v2",
-    "title": "第16届省赛练习（第二次）",
+    "path": "03-past-exams/16-provincial",
+    "title": "第16届省赛练习",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 6,
-    "memory_mode": false
-  },
-  {
-    "path": "03-past-exams/16-provincial-v3",
-    "title": "第16届省赛练习（第三次）",
-    "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
-    "errors": 0,
-    "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "03-past-exams/17-mock-1",
     "title": "第17届模拟练习",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 0,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   },
   {
     "path": "03-past-exams/national-practice-1",
     "title": "国赛综合练习（原目录未注明届次）",
     "clock_mhz": 12,
-    "status": "练习实现，待开发板实测验收",
+    "status": "已实物验证通过",
     "errors": 0,
     "warnings": 3,
-    "memory_mode": false
+    "memory_mode": false,
+    "board_tested": true,
+    "board_test_source": "maintainer_confirmation"
   }
 ]
